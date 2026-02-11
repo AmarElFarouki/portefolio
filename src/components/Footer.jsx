@@ -13,10 +13,10 @@ const Footer = () => {
                     <a href="#" className="text-gray-400 hover:text-white transition-colors">
                         Mentions Légales
                     </a>
-                    <a href="https://github.com/amar-elfarouki" className="text-gray-400 hover:text-white transition-colors">
+                    <a href="https://github.com/AmarElFarouki" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                         GitHub
                     </a>
-                    <a href="https://linkedin.com/in/amar-elfarouki" className="text-gray-400 hover:text-white transition-colors">
+                    <a href="https://www.linkedin.com/in/amar-el-farouki-998937265/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                         LinkedIn
                     </a>
                 </div>

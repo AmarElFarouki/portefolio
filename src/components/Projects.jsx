@@ -8,7 +8,7 @@ const projects = [
         tags: ["React", "Node.js", "MongoDB", "Express", "Tailwind"],
         github: "#",
         demo: "#",
-        image: "https://via.placeholder.com/400x250?text=Gym+Management+App" // Placeholder
+        image: "/assets/gym.jpg"
     },
     {
         title: "E-Commerce Dashboard",
@@ -16,7 +16,7 @@ const projects = [
         tags: ["Angular", "Spring Boot", "MySQL", "Chart.js"],
         github: "#",
         demo: "#",
-        image: "https://via.placeholder.com/400x250?text=E-Commerce+Dashboard" // Placeholder
+        image: "/assets/ecom.jpg"
     },
     {
         title: "Portfolio Personnel",
@@ -24,7 +24,7 @@ const projects = [
         tags: ["React", "Vite", "Tailwind CSS"],
         github: "#",
         demo: "#",
-        image: "https://via.placeholder.com/400x250?text=Portfolio+V1" // Placeholder
+        image: "/assets/phhhh.jpg"
     }
 ];
 
@@ -54,7 +54,7 @@ const Projects = () => {
                             key={index}
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            accordion={{ duration: 0.5, delay: index * 0.1 }}
+                            transition={{ duration: 0.5, delay: index * 0.1 }}
                             viewport={{ once: true }}
                             whileHover={{ y: -10 }}
                             className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
